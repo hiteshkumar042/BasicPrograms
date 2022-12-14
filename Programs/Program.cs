@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Choose the program from the below option:");
-            Console.WriteLine("\n1. Swap Two Numbers \t2. Even and Odd Check");
+            Console.WriteLine("\n1. Swap Two Numbers \n2. Even and Odd  Number Check \n3. Vowel And Alphabet Check" );
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -16,6 +16,10 @@
                 case 2:
                     EvenAndOdd even = new EvenAndOdd();
                     even.EvenOddFn();
+                    break;
+                case 3:
+                    VowelAndAlpha vowel = new VowelAndAlpha();
+                    vowel.VowelAndAlphaFn();
                     break;
                 default:
                     Console.WriteLine("Enter the option from given option only");
