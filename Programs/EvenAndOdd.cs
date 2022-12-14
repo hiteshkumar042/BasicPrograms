@@ -13,11 +13,11 @@ namespace Programs
             Console.WriteLine("Enter a Number:");
             int number=Convert.ToInt32(Console.ReadLine());
             if (number % 2 == 0) {
-                Console.WriteLine("Entered number is Evern Number");
+                Console.WriteLine("Entered number is a Evern Number");
             }
             else
             {
-                Console.WriteLine("Entered Number is Odd Number");
+                Console.WriteLine("Entered Number is a Odd Number");
             }
 
         }
