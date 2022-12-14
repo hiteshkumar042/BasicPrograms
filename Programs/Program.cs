@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Choose the program from the below option:");
             Console.WriteLine("\n1. Swap Two Numbers \n2. Even and Odd Number Check \n3. Vowel And Alphabet Check");
-            Console.WriteLine("4. Reverse Number Program \n5. Leap Year Program");
+            Console.WriteLine("4. Reverse Number Program \n5. Leap Year Program \n6. Prime Number Check\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -34,6 +34,11 @@
                     //Leap Year Program
                     LeapYear leap=new LeapYear();
                     leap.LeapYearFn();
+                    break;
+                case 6:
+                    //PrimeNumber Problem
+                    PrimeNumber prime = new PrimeNumber();
+                    prime.PrimeNumberFn();
                     break;
                 default:
                     Console.WriteLine("Enter the option from given option only");
