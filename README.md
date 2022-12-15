@@ -6,3 +6,4 @@
 4. Reverse Number Program
 5. Leap Year Program
 6. Prime Number Check
+7. Perfect Number Check
